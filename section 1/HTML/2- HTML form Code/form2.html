@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+
+<body>
+    <form method="get">
+        <fieldset>
+            <legend> Personal Details</legend>
+            <label for="saluataion">saluataion </label>
+            <select name="saluataion">
+
+                <option value="None" selected disabled>None</option>
+                <option value=" 1 "> value 1 </option>
+                <option value=" 2 "> value 2 </option>
+
+            </select>
+            <br><br>
+            <label for="firstname"> First name</label>
+            <input type="text" name="firstname" required>
+
+            <br><br>
+            <label for="lastname"> Last name</label>
+            <input type="text" name="lastname" required>
+            <br><br>
+            <label for="gender"> Gender: </label>
+            <input type="radio" value="male" name="gender"> Male
+            <input type="radio" value="female" name="gender"> Female
+            <br><br>
+            <label for="email"> Email: </label>
+            <input type="email" name="email">
+            <br><br>
+            <label for="birthdate"> Birthdate: </label>
+            <input type="date" name="birthdate">
+            <br><br>
+            <label for="address"> Address: </label>
+            <textarea cols="80" name="address"></textarea>
+            <br><br>
+            <label for="number"> Number </label>
+            <input type="number" min="1" max="10" step="2">
+            <br><br>
+
+            Courses:
+            <input type="checkbox" name="Course1" value="Programming"> Programming
+            <input type="checkbox" name="Course2" value="Website"> Website
+            <input type="checkbox" name="Course3" value="Networking"> Networking
+
+            <input type="color" name="color">
+            <input type="hidden">
+            <input type="file">
+
+
+            <input type="submit" value="send data">
+
+
+
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
