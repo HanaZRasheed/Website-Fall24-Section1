@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: grey;
+            height: 80px;
+            padding: 20px;
+
+            top: 0;
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        li a {
+            margin-left: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+            color: rgb(0, 60, 255);
+            text-shadow: rgb(0, 47, 255) 1px 0 10px;
+        }
+
+        #logout {
+            float: right;
+        }
+
+        div {
+            background-color: green;
+            width: 200px;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#"> About</a></li>
+            <li><a href="#"> Services </a></li>
+            <li id="logout"> <a href="#"> Logout </a></li>
+            <li><a href="#"> Products </a></li>
+        </ul>
+    </nav>
+    <div>
+        Main
+    </div>
+
+
+</body>
+
+</html>

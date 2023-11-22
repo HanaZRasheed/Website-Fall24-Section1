@@ -1,0 +1,16 @@
+    div {
+        color: green;
+    }
+
+    .blueDiv {
+        color: blue;
+    }
+
+    .redDiv {
+        color: red;
+    }
+
+    #special {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: purple;
+    }

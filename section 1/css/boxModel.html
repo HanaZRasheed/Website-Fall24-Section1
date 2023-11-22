@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        div {
+            background-color: beige;
+            width: 200px;
+            height: 200px;
+            /* border-color: red;
+            border-style: solid;
+            border-width: 5px; */
+
+            border: 5px solid red;
+            padding: 10px;
+            box-sizing: border-box;
+
+        }
+
+        #div1 {
+            /* margin: 100px; */
+        }
+
+        #div2 {
+            /* margin: 50px; */
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1"> div 1</div>
+    <div id="div2"> div 2</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th> id</th>
+                <th> name</th>
+            </tr>
+            <tr>
+                <td> 1</td>
+                <td> 2</td>
+            </tr>
+        </thead>
+    </table>
+
+</body>
+
+</html>
