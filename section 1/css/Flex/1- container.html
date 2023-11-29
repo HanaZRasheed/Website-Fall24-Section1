@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex container </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap: wrap; */
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: flex-end;
+            height: 100vh;
+
+            background-color: paleturquoise;
+            /* flex-direction: row;
+            flex-wrap: nowrap; 
+            flex-flow: row wrap;
+
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+           
+*/
+        }
+
+
+        .container div {
+            background-color: darkblue;
+            width: 25%;
+            height: 200px;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            padding: 100px 50px;
+            font-size: 20px;
+        }
+
+        .main {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container main">
+        <div>Item 1 </div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6 </div>
+        <!-- <div>Item 7</div>
+        <div>Item 8</div> -->
+
+
+
+    </div>
+</body>
+
+</html>
