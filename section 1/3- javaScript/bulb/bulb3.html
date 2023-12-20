@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button id="on" onclick=turnOn()>Turn on the light</button>
+
+    <img id="myImage" src="bulboff.gif" style="width:100px">
+
+    <button id="off" onclick=turnOff()>Turn off the light</button>
+    <script>
+        function turnOn() {
+            document.getElementById("myImage").src = "bulbon.gif";
+            document.getElementsByTagName("body")[0].style.backgroundColor = "white";
+
+        }
+
+        function turnOff() {
+            document.getElementById("myImage").src = "bulboff.gif";
+            document.getElementsByTagName("body")[0].style.backgroundColor = "black";
+        }
+    </script>
+</body>
+
+</html>

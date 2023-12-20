@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <h1>The Document Object</h1>
+    <h2>The createAttribute() and setAttributeNode() Methods</h2>
+
+    <p>Create a style attribute that adds a red color to the h1 element.</p>
+
+    <script>
+        // Create a class attribute:
+        const att = document.createAttribute("style");
+
+        // Set the value of the class attribute
+        att.value = "color:red";
+
+        // Add the class attribute to the first h1;
+        const h1 = document.getElementsByTagName("h1")[0];
+        h1.setAttributeNode(att);
+    </script>
+
+</body>
+
+
+
+</html>

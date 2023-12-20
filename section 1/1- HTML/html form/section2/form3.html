@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend> Personal Details</legend>
+
+            <label for="Saluatation"> Saluation </label> <br>
+            <select name="Saluatation">
+                <option value="None" disabled selected>None</option>
+                <option value="1">value 1 </option>
+                <option value="2">Value 2</option>
+
+            </select>
+            <br><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" value="male" name="gender">Male
+            <input type="radio" value="female" name="gender"> Female
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" name="email">
+            <br><br>
+
+            <label for="DOB"> Date of Birthdate</label>
+            <input type="date" name="DOB">
+
+            <label> Address</label>
+            <textarea cols="10" rows="4">
+
+            </textarea>
+            <br><br>
+            <label for="number">number</label>
+            <input type="number" min="1" max="10" step="2" name="number">
+
+            <br><br><br>
+            <label for="Courses"> Courses</label>
+            <input type="checkbox" name="course1" value="programming"> Programming
+            <input type="checkbox" name="course2" value="Website"> Website
+            <input type="checkbox" name="course3" value="Networking"> Networking
+
+            <br><br>
+
+            <input type="color" name="color" id="color">
+            <input type="reset">
+            <input type="range" name="range" id="">
+
+            <input type="submit">
+
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

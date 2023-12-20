@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>The Document Object</h1>
+    <h2>The title Property</h2>
+
+    <p>The title of this document is:</p>
+    <p id="demo"></p>
+
+    <script>
+        document.title = "updated title";
+        document.getElementById("demo").innerHTML = document.title;
+    </script>
+
+</body>
+
+</html>

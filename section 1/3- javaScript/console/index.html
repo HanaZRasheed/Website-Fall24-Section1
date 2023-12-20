@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var number1 = prompt("enter first value");
+        // var number2 = prompt("enter second value");
+        // var sum = Number(number1) + Number(number2);
+        // alert("The sum value is " + sum);
+        // console.log("The sum value is " + sum);
+
+        function myFunction() {
+            var name = prompt("enter your name");
+            document.getElementById("name").innerHTML = "Hello " + name;
+        }
+    </script>
+</head>
+
+<body>
+    <h4 id="name"> </h4>
+    <p id="demo" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p>
+</body>
+
+</html>

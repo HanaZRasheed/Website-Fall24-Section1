@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <h1>The Element Object</h1>
+    <h2>The insertBefore() Method</h2>
+
+    <ul id="myList">
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+
+    <script>
+        // Create a "li" element:
+        const newNode = document.createElement("li");
+        // Create a text node:
+        const textNode = document.createTextNode("Water");
+        // Append text node to "li" element:
+        newNode.appendChild(textNode);
+
+        // Insert before existing child:
+        const list = document.getElementById("myList");
+        list.insertBefore(newNode, list.children[0]);
+    </script>
+
+</body>
+
+</html>

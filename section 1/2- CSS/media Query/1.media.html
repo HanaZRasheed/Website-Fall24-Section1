@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query </title>
+    <style>
+        body {
+            background-color: pink;
+            color: blue;
+            font-size: 12px;
+        }
+
+        h1 {
+            color: black;
+        }
+
+
+
+        @media screen and (min-width:400px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+
+
+        @media screen and (orientation:landscape) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+
+        @media print {
+            body {
+                background-color: unset;
+            }
+        }
+
+        /* @media only screen and (min-width:500px) {
+            body {
+                background-color: wheat;
+                color: black;
+            }
+
+            h1 {
+                color: red;
+                font-size: 2em;
+            }
+        }
+
+
+        @media print {
+            body {
+                color: black;
+                background-color: white;
+            }
+        }
+
+
+        @media only screen and (orientation:landscape) {
+            body {
+                background-color: lightblue;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <h1>Resize the browser window to see the effect!</h1>
+    <p>The media query will only apply if the media type is screen and the viewport is 480px wide or wider.</p>
+
+</body>
+
+</html>
