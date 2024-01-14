@@ -1,0 +1,11 @@
+Code:
+StringBuffer s1=new StringBuffer("JAVA".toLowerCase());
+StringBuffer s2=new StringBuffer("java");
+System.out.println(s1.equals(s2));
+What is the result of compiling and running the above code?
+
+
+- true
+- false correct
+- Compile time error
+- Run time error
